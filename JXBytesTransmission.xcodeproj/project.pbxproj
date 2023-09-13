@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0980DE2AB0178C00A567A2 /* JXBytesTransTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0980DD2AB0178C00A567A2 /* JXBytesTransTask.swift */; };
+		7A2110762A7C9DDC008228F3 /* JXBytesTransmissionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2110752A7C9DDC008228F3 /* JXBytesTransmissionError.swift */; };
 		7ABEDC482A7BA06E00C68511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC472A7BA06E00C68511 /* AppDelegate.swift */; };
 		7ABEDC4A2A7BA06E00C68511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC492A7BA06E00C68511 /* SceneDelegate.swift */; };
 		7ABEDC4C2A7BA06E00C68511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC4B2A7BA06E00C68511 /* ViewController.swift */; };
@@ -16,11 +18,10 @@
 		7ABEDC5F2A7BA07200C68511 /* JXBytesTransmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC5E2A7BA07200C68511 /* JXBytesTransmissionTests.swift */; };
 		7ABEDC692A7BA07200C68511 /* JXBytesTransmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC682A7BA07200C68511 /* JXBytesTransmissionUITests.swift */; };
 		7ABEDC6B2A7BA07200C68511 /* JXBytesTransmissionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC6A2A7BA07200C68511 /* JXBytesTransmissionUITestsLaunchTests.swift */; };
-		7ABEDC792A7BA2CF00C68511 /* JXBytesTransimission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC782A7BA2CF00C68511 /* JXBytesTransimission.swift */; };
-		7ABEDC7B2A7BA32300C68511 /* JXTransmissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC7A2A7BA32300C68511 /* JXTransmissionManager.swift */; };
-		7ABEDC7D2A7BA34E00C68511 /* JXTransmissionCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC7C2A7BA34E00C68511 /* JXTransmissionCacher.swift */; };
-		7ABEDC7F2A7BA56B00C68511 /* JXTransmissionDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC7E2A7BA56B00C68511 /* JXTransmissionDownloader.swift */; };
-		7ABEDC812A7BA57F00C68511 /* JXTransmissionUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC802A7BA57F00C68511 /* JXTransmissionUploader.swift */; };
+		7ABEDC7B2A7BA32300C68511 /* JXTransManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC7A2A7BA32300C68511 /* JXTransManager.swift */; };
+		7ABEDC7D2A7BA34E00C68511 /* JXTransCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC7C2A7BA34E00C68511 /* JXTransCacher.swift */; };
+		7ABEDC7F2A7BA56B00C68511 /* JXTransDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC7E2A7BA56B00C68511 /* JXTransDownloader.swift */; };
+		7ABEDC812A7BA57F00C68511 /* JXTransUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEDC802A7BA57F00C68511 /* JXTransUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0980DD2AB0178C00A567A2 /* JXBytesTransTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXBytesTransTask.swift; sourceTree = "<group>"; };
+		7A2110752A7C9DDC008228F3 /* JXBytesTransmissionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXBytesTransmissionError.swift; sourceTree = "<group>"; };
 		7ABEDC442A7BA06E00C68511 /* JXBytesTransmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXBytesTransmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABEDC472A7BA06E00C68511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ABEDC492A7BA06E00C68511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,11 +57,10 @@
 		7ABEDC642A7BA07200C68511 /* JXBytesTransmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXBytesTransmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABEDC682A7BA07200C68511 /* JXBytesTransmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXBytesTransmissionUITests.swift; sourceTree = "<group>"; };
 		7ABEDC6A2A7BA07200C68511 /* JXBytesTransmissionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXBytesTransmissionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7ABEDC782A7BA2CF00C68511 /* JXBytesTransimission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXBytesTransimission.swift; sourceTree = "<group>"; };
-		7ABEDC7A2A7BA32300C68511 /* JXTransmissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransmissionManager.swift; sourceTree = "<group>"; };
-		7ABEDC7C2A7BA34E00C68511 /* JXTransmissionCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransmissionCacher.swift; sourceTree = "<group>"; };
-		7ABEDC7E2A7BA56B00C68511 /* JXTransmissionDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransmissionDownloader.swift; sourceTree = "<group>"; };
-		7ABEDC802A7BA57F00C68511 /* JXTransmissionUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransmissionUploader.swift; sourceTree = "<group>"; };
+		7ABEDC7A2A7BA32300C68511 /* JXTransManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransManager.swift; sourceTree = "<group>"; };
+		7ABEDC7C2A7BA34E00C68511 /* JXTransCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransCacher.swift; sourceTree = "<group>"; };
+		7ABEDC7E2A7BA56B00C68511 /* JXTransDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransDownloader.swift; sourceTree = "<group>"; };
+		7ABEDC802A7BA57F00C68511 /* JXTransUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXTransUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A2110742A7C9DB1008228F3 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				7A2110752A7C9DDC008228F3 /* JXBytesTransmissionError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		7ABEDC3B2A7BA06E00C68511 = {
 			isa = PBXGroup;
 			children = (
@@ -141,11 +151,12 @@
 		7ABEDC772A7BA29C00C68511 /* JXBytesTransmission */ = {
 			isa = PBXGroup;
 			children = (
-				7ABEDC782A7BA2CF00C68511 /* JXBytesTransimission.swift */,
-				7ABEDC7A2A7BA32300C68511 /* JXTransmissionManager.swift */,
-				7ABEDC7C2A7BA34E00C68511 /* JXTransmissionCacher.swift */,
-				7ABEDC7E2A7BA56B00C68511 /* JXTransmissionDownloader.swift */,
-				7ABEDC802A7BA57F00C68511 /* JXTransmissionUploader.swift */,
+				7A2110742A7C9DB1008228F3 /* Error */,
+				7ABEDC7A2A7BA32300C68511 /* JXTransManager.swift */,
+				7ABEDC7C2A7BA34E00C68511 /* JXTransCacher.swift */,
+				7ABEDC7E2A7BA56B00C68511 /* JXTransDownloader.swift */,
+				7ABEDC802A7BA57F00C68511 /* JXTransUploader.swift */,
+				7A0980DD2AB0178C00A567A2 /* JXBytesTransTask.swift */,
 			);
 			path = JXBytesTransmission;
 			sourceTree = "<group>";
@@ -281,14 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ABEDC7B2A7BA32300C68511 /* JXTransmissionManager.swift in Sources */,
-				7ABEDC7D2A7BA34E00C68511 /* JXTransmissionCacher.swift in Sources */,
+				7ABEDC7B2A7BA32300C68511 /* JXTransManager.swift in Sources */,
+				7ABEDC7D2A7BA34E00C68511 /* JXTransCacher.swift in Sources */,
 				7ABEDC4C2A7BA06E00C68511 /* ViewController.swift in Sources */,
-				7ABEDC792A7BA2CF00C68511 /* JXBytesTransimission.swift in Sources */,
+				7A2110762A7C9DDC008228F3 /* JXBytesTransmissionError.swift in Sources */,
 				7ABEDC482A7BA06E00C68511 /* AppDelegate.swift in Sources */,
 				7ABEDC4A2A7BA06E00C68511 /* SceneDelegate.swift in Sources */,
-				7ABEDC7F2A7BA56B00C68511 /* JXTransmissionDownloader.swift in Sources */,
-				7ABEDC812A7BA57F00C68511 /* JXTransmissionUploader.swift in Sources */,
+				7ABEDC7F2A7BA56B00C68511 /* JXTransDownloader.swift in Sources */,
+				7ABEDC812A7BA57F00C68511 /* JXTransUploader.swift in Sources */,
+				7A0980DE2AB0178C00A567A2 /* JXBytesTransTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +485,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +514,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
